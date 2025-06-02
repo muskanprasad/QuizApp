@@ -80,8 +80,8 @@ function App() {
                         score={score}
                         totalQuestions={questions.length}
                         handleRestartQuiz={handleRestartQuiz}
-                        questions={questions} // Pass questions array
-                        selectedAnswers={selectedAnswers} // Pass selected answers
+                        questions={questions} 
+                        selectedAnswers={selectedAnswers} 
                     />
                 ) : (
                     <div className="quiz-form-container">
